@@ -4,6 +4,7 @@ import { AngularUniversalModule } from '@nestjs/ng-universal';
 
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
+// eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
 import { AppServerModule } from '../../../frontend/src/main.server';
 
 @Module({
