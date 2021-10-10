@@ -112,17 +112,6 @@
     "@angular-devkit/architect" "0.1202.9"
     rxjs "6.6.7"
 
-"@angular-devkit/core@11.1.4":
-  version "11.1.4"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-11.1.4.tgz#18bc032cd59c5f0c7b4eda30a98f1b29fe147372"
-  integrity sha512-xqjUIdMTDNjZ8jkzlDSQbhmTwF2tOLlT0iRI9mb7pN4VIS0LI/Xu0iTqDUrVs0Hqtb9609dz13LXu5zbQSb+cw==
-  dependencies:
-    ajv "6.12.6"
-    fast-json-stable-stringify "2.1.0"
-    magic-string "0.25.7"
-    rxjs "6.6.3"
-    source-map "0.7.3"
-
 "@angular-devkit/core@11.2.4":
   version "11.2.4"
   resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-11.2.4.tgz#4404b86d8dbdb41a0e3f94cb08ff8604e0c49a2e"
@@ -132,6 +121,18 @@
     fast-json-stable-stringify "2.1.0"
     magic-string "0.25.7"
     rxjs "6.6.3"
+    source-map "0.7.3"
+
+"@angular-devkit/core@12.2.7":
+  version "12.2.7"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-12.2.7.tgz#f114b12d81797c84c9adf6ced7e355565cd4a54a"
+  integrity sha512-WeLlDZaudpx10OGDPfVcWu/CaEWiWzAaLTUQz0Ww/yM+01FxR/P8yeH1sYAV1MS6d6KHvXGw7Lpf8PV7IA/zHA==
+  dependencies:
+    ajv "8.6.2"
+    ajv-formats "2.1.0"
+    fast-json-stable-stringify "2.1.0"
+    magic-string "0.25.7"
+    rxjs "6.6.7"
     source-map "0.7.3"
 
 "@angular-devkit/core@12.2.9", "@angular-devkit/core@^12.2.7":
@@ -146,15 +147,6 @@
     rxjs "6.6.7"
     source-map "0.7.3"
 
-"@angular-devkit/schematics@11.1.4":
-  version "11.1.4"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-11.1.4.tgz#c14fc484a58e6a63e1fde8404138dd9b2a80e5a2"
-  integrity sha512-WWHmBHPabKgrBDM2M5ayA0OdhonNQHld8NjY8jEdwyWI4xEj23C/qDfgQc8sssvpi4LauKSaPozDELl7ItBPXA==
-  dependencies:
-    "@angular-devkit/core" "11.1.4"
-    ora "5.2.0"
-    rxjs "6.6.3"
-
 "@angular-devkit/schematics@11.2.4":
   version "11.2.4"
   resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-11.2.4.tgz#ba67ee835ceb210777f1feece86195f28c1b2e96"
@@ -163,6 +155,15 @@
     "@angular-devkit/core" "11.2.4"
     ora "5.3.0"
     rxjs "6.6.3"
+
+"@angular-devkit/schematics@12.2.7":
+  version "12.2.7"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-12.2.7.tgz#46df2cb7a5917ff59ebcb47028b69b75572b12f6"
+  integrity sha512-E0hCFyyfbixjerf0Okt4ynC6F1dsT2Wl7MwAePe+wzPTHCnKIRTa2PQTxJzdWeTlSkQMkSK6ft2iyWOD/FODng==
+  dependencies:
+    "@angular-devkit/core" "12.2.7"
+    ora "5.4.1"
+    rxjs "6.6.7"
 
 "@angular-devkit/schematics@12.2.9", "@angular-devkit/schematics@~12.2.0":
   version "12.2.9"
@@ -1715,15 +1716,15 @@
     tslib "2.2.0"
     uuid "8.3.2"
 
-"@nestjs/ng-universal@^4.0.0":
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/@nestjs/ng-universal/-/ng-universal-4.3.0.tgz#885b6782579144e69c479e58bdb3f57077dbd6e9"
-  integrity sha512-SPcayfERWuJf2glOqP5epB+mTn+THYpoz6LdwTEXX9v3Zj8kG7tbZ5s7KyMzSBoqGka3joHO7J+O92QBND+PKg==
+"@nestjs/ng-universal@^5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@nestjs/ng-universal/-/ng-universal-5.0.1.tgz#024570b7c22addad9fa35d767a3e28b0441dd6e9"
+  integrity sha512-g0YwS6rm/3hech+WGjFyMjmniAxkf594TtR2uoRbmy17DiT0lCVxn//SOvqjnCZnQ1RZ/F8v1nQ4a7gUnfzWzw==
   dependencies:
-    "@angular-devkit/schematics" "11.1.4"
-    "@nguniversal/common" "11.1.2"
-    "@nguniversal/express-engine" "11.1.2"
-    "@schematics/angular" "11.1.4"
+    "@angular-devkit/schematics" "12.2.7"
+    "@nguniversal/common" "12.1.0"
+    "@nguniversal/express-engine" "12.1.0"
+    "@schematics/angular" "12.2.7"
     memory-cache "0.2.0"
 
 "@nestjs/platform-express@^7.0.0":
@@ -1761,7 +1762,7 @@
   resolved "https://registry.yarnpkg.com/@ngtools/webpack/-/webpack-12.2.9.tgz#e13d815d35e155bea6e2b13f6f54bc3275ed0670"
   integrity sha512-IQkzvompjLdWbZ+33crtyVF8huF53C36k1FNFdq3x2j4Kw4ssDd6K9fq3aZpRCK0J8O79HJ5j4QH6ZtWjwajLg==
 
-"@nguniversal/builders@^12.1.0":
+"@nguniversal/builders@^12.1.1":
   version "12.1.1"
   resolved "https://registry.yarnpkg.com/@nguniversal/builders/-/builders-12.1.1.tgz#5a57954a6b1af61c24707f7127750aaebe64cf22"
   integrity sha512-a8R8w1XpVDhEUW+C2p6+P979/QWDrcdFUAPBO5t28McTnynQEOnHYgFxm4TNqu1o9xi/OLmpLQ3oG9A1OxzGJQ==
@@ -1778,13 +1779,14 @@
     rxjs "^6.5.5"
     tree-kill "^1.2.2"
 
-"@nguniversal/common@11.1.2":
-  version "11.1.2"
-  resolved "https://registry.yarnpkg.com/@nguniversal/common/-/common-11.1.2.tgz#8b5318122b14fde858d776da50604df8fcdae946"
-  integrity sha512-tOMYq3TEW09aXPrIFNUNdUTl338f4LwvVrFbEpUrsue2FIfibmoR0xQZ56TxfBfHH1jSkZnq4jUGy6w1cR0CeA==
+"@nguniversal/common@12.1.0":
+  version "12.1.0"
+  resolved "https://registry.yarnpkg.com/@nguniversal/common/-/common-12.1.0.tgz#1d590e2381c31d2f4c73775119d6b90c89ebc6b0"
+  integrity sha512-3sclweTDdgrcpuvW6MJMxwsF/bnrpCIgn9BWECwefOsuBnN7OYGzqjuKPKIZQJaw+wvkGagv/GBAoq98IoCR4A==
   dependencies:
-    critters "0.0.6"
-    tslib "^2.0.0"
+    critters "0.0.10"
+    jsdom "16.6.0"
+    tslib "^2.3.0"
 
 "@nguniversal/common@12.1.1":
   version "12.1.1"
@@ -1795,20 +1797,12 @@
     jsdom "16.6.0"
     tslib "^2.3.0"
 
-"@nguniversal/express-engine@11.1.2":
-  version "11.1.2"
-  resolved "https://registry.yarnpkg.com/@nguniversal/express-engine/-/express-engine-11.1.2.tgz#ce4f35febe441494252c4c44b5c1766869072ba9"
-  integrity sha512-3ldtjjLu6ltLtemWkZmqqiH70Ol9XsB/sjQcwoKtALbdbi3xfgqVwurqi+IS/xeRoMRgXDv8uxfEVqO+X76tRQ==
+"@nguniversal/express-engine@12.1.0":
+  version "12.1.0"
+  resolved "https://registry.yarnpkg.com/@nguniversal/express-engine/-/express-engine-12.1.0.tgz#b3457e57b23232541b018cc073454a0c5b944733"
+  integrity sha512-rgJ+ZlToX2wC7u8H5kIlT0lL3HNE7Awdazoc0HbeVV9xlCKBye29ndTAON6JZEn+8tIVAN0sZioziBZED/Yrvg==
   dependencies:
-    "@nguniversal/common" "11.1.2"
-    tslib "^2.0.0"
-
-"@nguniversal/express-engine@^12.1.0":
-  version "12.1.1"
-  resolved "https://registry.yarnpkg.com/@nguniversal/express-engine/-/express-engine-12.1.1.tgz#8a96e2bc6a5f3ec357880967f6a423bb7286364d"
-  integrity sha512-FsSArF2XLBDLDmC9xDg6QrYusaL8CnA8QMKnI8BrzTbk88rf5ql4zhJZIuJwBqU0mkn5k9VIzNFaZDmG6wry9A==
-  dependencies:
-    "@nguniversal/common" "12.1.1"
+    "@nguniversal/common" "12.1.0"
     tslib "^2.3.0"
 
 "@nodelib/fs.scandir@2.1.5":
@@ -2116,13 +2110,13 @@
   dependencies:
     esquery "^1.0.1"
 
-"@schematics/angular@11.1.4":
-  version "11.1.4"
-  resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-11.1.4.tgz#60c4236d2b62f37c163531e0543150ba12fd4bbc"
-  integrity sha512-UWhUPxRarbK4AWTcOBmCOYMZwuxnJRo/Ts/0yyNqUkj6gHieyv0hsOi10f8Ofn34MyvPnUpDnCT/o9bzanmqog==
+"@schematics/angular@12.2.7":
+  version "12.2.7"
+  resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-12.2.7.tgz#f384baddbe996b1929d755f4a495d144b5c15833"
+  integrity sha512-wGqp0jC545Fwf0ydBkeoJHx9snFW+uqn40WwVqs/27Nh4AEHB5uzwzLY7Ykae95Zn802a61KPqSNWpez2fWWGA==
   dependencies:
-    "@angular-devkit/core" "11.1.4"
-    "@angular-devkit/schematics" "11.1.4"
+    "@angular-devkit/core" "12.2.7"
+    "@angular-devkit/schematics" "12.2.7"
     jsonc-parser "3.0.0"
 
 "@schematics/angular@12.2.9", "@schematics/angular@~12.2.0":
@@ -4539,17 +4533,6 @@ critters@0.0.10:
     parse5-htmlparser2-tree-adapter "^6.0.1"
     pretty-bytes "^5.3.0"
 
-critters@0.0.6:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/critters/-/critters-0.0.6.tgz#b71384113d8b5f5c82f3aeba80c122437f195d8c"
-  integrity sha512-NUB3Om7tkf+XWi9+2kJ2A3l4/tHORDI1UT+nHxUqay2B/tJvMpiXcklDDLBH3fPn9Pe23uu0we/08Ukjy4cLCQ==
-  dependencies:
-    chalk "^4.1.0"
-    css "^3.0.0"
-    parse5 "^6.0.1"
-    parse5-htmlparser2-tree-adapter "^6.0.1"
-    pretty-bytes "^5.3.0"
-
 cross-spawn@^6.0.0, cross-spawn@^6.0.5:
   version "6.0.5"
   resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-6.0.5.tgz#4a5ec7c64dfae22c3a14124dbacdee846d80cbc4"
@@ -4675,9 +4658,9 @@ css-tree@^1.1.2, css-tree@^1.1.3:
     source-map "^0.6.1"
 
 css-what@^5.0.0:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/css-what/-/css-what-5.0.1.tgz#3efa820131f4669a8ac2408f9c32e7c7de9f4cad"
-  integrity sha512-FYDTSHb/7KXsWICVsxdmiExPjCfRC4qRFBdVwv7Ax9hMnvMmEjP9RfxTEZ3qPZGmADDn2vAKSo9UcN1jKVYscg==
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/css-what/-/css-what-5.1.0.tgz#3f7b707aadf633baf62c2ceb8579b545bb40f7fe"
+  integrity sha512-arSMRWIIFY0hV8pIxZMEfmMI47Wj3R/aWpZDDxWYCPEiOMv6tfOrnpDtgxBYPEQD4V0Y/958+1TdC3iWTFcUPw==
 
 css@^2.0.0:
   version "2.2.4"
@@ -9283,20 +9266,6 @@ optionator@^0.9.1:
     prelude-ls "^1.2.1"
     type-check "^0.4.0"
     word-wrap "^1.2.3"
-
-ora@5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/ora/-/ora-5.2.0.tgz#de10bfd2d15514384af45f3fa9d9b1aaf344fda1"
-  integrity sha512-+wG2v8TUU8EgzPHun1k/n45pXquQ9fHnbXVetl9rRgO6kjZszGGbraF3XPTIdgeA+s1lbRjSEftAnyT0w8ZMvQ==
-  dependencies:
-    bl "^4.0.3"
-    chalk "^4.1.0"
-    cli-cursor "^3.1.0"
-    cli-spinners "^2.5.0"
-    is-interactive "^1.0.0"
-    log-symbols "^4.0.0"
-    strip-ansi "^6.0.0"
-    wcwidth "^1.0.1"
 
 ora@5.3.0:
   version "5.3.0"
